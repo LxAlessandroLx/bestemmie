@@ -7,6 +7,8 @@ Libreria header-only per la generazione di bestemmie in C
 
 int main()
 {
+    srand(time(NULL));
+
     bestemmia();
 }
 ```

@@ -2,5 +2,7 @@
 
 int main()
 {
+    srand(time(NULL));
+    
     bestemmia();
 }

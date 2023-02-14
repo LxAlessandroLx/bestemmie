@@ -235,11 +235,13 @@ static const char* bestemmie[] = {
 	"dio rugginoso",
 };
 
-static void bestemmia()
+static const char *bestemmia()
 {
-    srand(time(NULL));
+    const int index = rand()%NUMERO_BESTEMMIE;
 
-    puts(bestemmie[rand()%NUMERO_BESTEMMIE]);
+    puts(bestemmie[index]);
+
+	return bestemmie[index];
 }
 
 #endif // PORCODIO_H
