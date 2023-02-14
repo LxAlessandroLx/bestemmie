@@ -44,6 +44,7 @@ static const char* bestemmie[] = {\n");
 
     fprintf(output, "\
 };\n\
+\n\
 static void bestemmia()\n\
 {\n\
     srand(time(NULL));\n\
